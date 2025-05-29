@@ -1,25 +1,24 @@
 # API Escola
 
-Este é o repositório para o projeto de API de uma Escola feito em Django REST Framework.  
-Para saber mais informações, acesse o [Trello do Projeto](https://trello.com/b/WPxbvI0c/django-rest-framework-escola-curso-01).
+API RESTful para gerenciamento de uma escola, desenvolvida com Django REST Framework.
 
-**⚠️ Este projeto foi desenvolvido como parte de um curso na Alura e tem finalidade exclusiva de aprendizado.**
-Pretendo ampliar meus conhecimentos criando projetos pessoais cada vez mais desafiadores, com foco em soluções reais e impacto de verdade.
+> Projeto criado como parte do curso [Django REST Framework: construindo APIs RESTful do Zero](https://cursos.alura.com.br/course/django-rest-framework-construindo-apis-restful-zero) da Alura. Embora tenha fins educacionais, este repositório serve como ponto de partida para projetos mais robustos e aplicações reais.
 
-Este conteúdo foi criado no curso [Django REST Framework: construindo APIs RESTful do Zero](https://cursos.alura.com.br/course/django-rest-framework-construindo-apis-restful-zero) sem a intenção de ser utilizado em produção, mas como recurso educacional ensinado no meu curso.
+ [Trello do Projeto](https://trello.com/b/WPxbvI0c/django-rest-framework-escola-curso-01)
 
 ## Tecnologias
 - Python
 - Django 
 - Django REST Framework 
 
-## Implementações
-- CRUD completo de Alunos, Cursos e Matrícula
-- Visualização das matrículas de cada estudante
-- Visualização das matrículas de cada curso
-- Autenticação básica
+## Funcionalidades
 
-## Esse projeto ainda não inclui
+- CRUD completo de Alunos, Cursos e Matrículas
+- Visualização de matrículas por aluno
+- Visualização de matrículas por curso
+- Autenticação básica (via BasicAuth)
+
+## Melhorias Futuras
 - Validações
 - Paginação
 - Filtros
@@ -68,3 +67,6 @@ Após configurar o ambiente virtual, instalar as dependências e aplicar as migr
   python manage.py runserver
 ```
 Isso iniciará o servidor de desenvolvimento em http://localhost:8000/. Você pode acessar este URL em seu navegador para interagir com a API.
+
+## ⚠️ Aviso
+Este projeto tem fins exclusivamente educacionais e não deve ser usado em produção sem ajustes de segurança e escalabilidade. Foi criado como exercício prático no curso da Alura e serve como base para aplicações reais.
